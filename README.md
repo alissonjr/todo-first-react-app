@@ -10,7 +10,7 @@ Um simples ToDo (lista de tarefas)
 
 ---
 
-## Overview
+## Demo
 
 [Demonstration](https://alissonjr.github.io/todo-first-react-app)
 
