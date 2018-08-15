@@ -7,8 +7,15 @@ class Task extends Component {
     render () {
         return (
             <tr>
-                <td>
+                <td class="text-left">
                     { this.props.task }
+                </td>
+                <td>
+                    <select class="custom-select">
+                        <option value="" selected>To Do</option>
+                        <option value="">Doing</option>
+                        <option value="">Done</option>
+                    </select>
                 </td>
                 <td>
                     <button onClick={() => {this.props.deleteTask(this.props.id)}} class="btn btn-sm btn-danger">Delete</button>

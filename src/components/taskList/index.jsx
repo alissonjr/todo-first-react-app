@@ -11,6 +11,7 @@ class TaskList extends Component {
                 <thead>
                     <tr>
                         <th>Task</th>
+                        <th style={{width: '200px'}}>Status</th>
                         <th style={{width: '150px'}}>Actions</th>
                     </tr>
                 </thead>
