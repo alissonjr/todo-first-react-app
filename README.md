@@ -12,6 +12,12 @@ Um simples ToDo (lista de tarefas)
 
 ## Overview
 
+[Demonstration](https://alissonjr.github.io/todo-first-react-app)
+
+---
+
+## Overview
+
 ### Instalation
 
 Para instalar, basta rodar:
@@ -26,6 +32,16 @@ Para instanciar a aplicação em desenvolvimento, basta rodar:
 
 ```bash
 $ npm start
+```
+
+---
+
+### Compile Production
+
+Para compilar a aplicação para produção, basta rodar:
+
+```bash
+$ npm run build
 ```
 
 ---
