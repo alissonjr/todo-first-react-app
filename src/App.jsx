@@ -16,6 +16,11 @@ class App extends Component {
 				<TaskBar />
 				<TaskCount />
 				<TaskList />
+				<footer>
+					<p>
+						Made with ❤ in <a class="badge badge-light" href="https://pt.wikipedia.org/wiki/Baixo_Guandu">Baixo Guandu-ES</a> by <a class="badge badge-light" href="https://github.com/alissonjr">@alissonjr</a>
+					</p>
+				</footer>
 			</div>
 		);
 	}

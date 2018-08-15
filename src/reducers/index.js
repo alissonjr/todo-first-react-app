@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
 
-const taskReducer = (state = [], action) => {
+const tasksReducer = (state = [], action) => {
     switch(action.type) {
         case 'ADD_TASK':
             state = state.concat(action.payload);
@@ -16,7 +16,7 @@ const taskReducer = (state = [], action) => {
 };
 
 const reducers = combineReducers({
-    tasks: taskReducer
+    tasks: tasksReducer
 });
 
 export default reducers;

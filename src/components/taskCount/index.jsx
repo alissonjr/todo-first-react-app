@@ -7,7 +7,7 @@ class TaskCount extends Component {
             <div class="container text-left">
                 <p>
                     <b>Total tasks:</b>
-                    <span class="ml-2">{this.props.tasks.length}</span>
+                    <span class="badge badge-primary ml-2">{this.props.tasks.length}</span>
                 </p>
             </div>
         );
