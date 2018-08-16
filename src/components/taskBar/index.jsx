@@ -12,7 +12,7 @@ class TaskBar extends Component {
                         <label for="task" class="sr-only">New Task</label>
                         <input type="text" name="task" ref="task" class="form-control" placeholder="add your tasks here" />
                     </div>
-                    <button type="button" class="btn btn-primary mb-3 ml-2">Add Task</button>
+                    <button class="btn btn-primary mb-3 ml-2">Add Task</button>
                 </form>
             </div>
         );
