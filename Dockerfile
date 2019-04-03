@@ -1,7 +1,14 @@
-FROM node:8.2.1-alpine
-RUN npm install -g create-react-app \
-                   create-react-native-app \
-                   react-native-cli
-RUN mkdir /app
-WORKDIR /app
-ADD . /app
+
+FROM node:alpine
+
+WORKDIR /usr/app
+
+COPY package*.json ./
+
+RUN npm install -qy
+
+COPY . .
+
+EXPOSE 3000
+
+CMD ["npm", "start"]

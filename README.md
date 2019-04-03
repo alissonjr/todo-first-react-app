@@ -1,10 +1,10 @@
 # React ToDo App
 
-App estilo SPA para fins de aprendizado da tecnologia React.js
+Litle SPA to learn React.js
 
 ## About Idea
 
-Um simples ToDo (lista de tarefas)
+A simple To do App
 
 ![screen](https://github.com/alissonjr/todo-first-react-app/blob/master/model-screen.jpg)
 
@@ -20,7 +20,7 @@ Um simples ToDo (lista de tarefas)
 
 ### Instalation
 
-Para instalar, basta rodar:
+To install, just run:
 
 ```bash
 $ npm install
@@ -28,21 +28,29 @@ $ npm install
 
 ### Development Watch
 
-Para instanciar a aplicação em desenvolvimento, basta rodar:
+To start dev, just run:
 
 ```bash
 $ npm start
+```
+
+With Docker & docker-compose:
+
+```bash
+$ make
 ```
 
 ---
 
 ### Compile Production
 
-Para compilar a aplicação para produção, basta rodar:
+To compile for production, just run:
 
 ```bash
 $ npm run build
 ```
+
+With docker
 
 ---
 
